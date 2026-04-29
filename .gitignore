@@ -1,0 +1,44 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Python packaging and environments
+.Python
+build/
+dist/
+*.egg-info/
+.venv/
+venv/
+env/
+ENV/
+
+# Test and lint caches
+.pytest_cache/
+.tox/
+.nox/
+.mypy_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Local logs and notebooks
+*.log
+*.tmp
+
+# Project outputs and checkpoints
+checkpoints/
+lightning_logs/
+results/
+Exps/
+model_zoos/
+datas/
+*.pt
+*.ckpt
+
+# Bazel outputs
+bazel-bin/
+bazel-out/
+bazel-testlogs/
+bazel-*/
